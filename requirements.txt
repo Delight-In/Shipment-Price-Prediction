@@ -34,4 +34,4 @@ watchfiles==0.24.0
 websockets==13.0.1
 xgboost==2.1.1
 
-# -e .
+-e .
