@@ -1,7 +1,0 @@
-numpy
-pandas
-matplotlib
-seaborn
-xgboost
-catboost
-scikit-learn
