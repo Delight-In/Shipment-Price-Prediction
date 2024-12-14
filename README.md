@@ -1,6 +1,9 @@
 ## Shipment Price Prediction
 
-![Image](images.jpeg)
+<!-- ![Image](images.jpeg) -->
+<img src="image,jpeg" alt="Shipment" style="width: 300px; height: auto;" />
+
+
 **Problem Statement**:
 
 
