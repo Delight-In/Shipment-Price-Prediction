@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shipping Cost Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light static-top">
+     </nav>
+    <section>
+        <div class="container-fluid">
+            <div class="container">
+                <form action="/predict" method="post">
+                    <legend>Shipping Cost Prediction</legend>
+                 
+                      <div class="mb-3">
+                        <label for="artist">artist reputation</label>
+                        <input type="number" class="form-control" id="artist" name="artist" placeholder="Int" required="required">
+                      </div>
+        
+                      <div class="mb-3">
+                        <label for="height">height</label>
+                        <input type="number" class="form-control" id="height" name="height" placeholder="Int" required="required">
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="width">width</label>
+                        <input type="number" class="form-control" id="width" name="width" placeholder="Int" required="required">
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="weight">weight</label>
+                        <input type="number" class="form-control" id="weight" name="weight" placeholder="Int" required="required">
+                      </div>
+
+
+        
+                      <div class="mb-3">
+                        <label for="material">Select material</label>
+                        <select class="form-control" id="material" name="material" placeholder="material" required="required">
+                          <option value="" disabled selected>material</option>
+                          <option>Aluminium</option>
+                          <option>Marble</option>
+                          <option>Bronze</option>
+                          <option>Clay</option>
+                          <option>Brass</option>
+                          <option>Wood</option>
+                          <option>Stone</option>
+                        </select>
+                      </div>
+
+
+                      <div class="mb-3">
+                        <label for="priceOfSculpture">priceOfSculpture</label>
+                        <input type="number" class="form-control" id="priceOfSculpture" name="priceOfSculpture" placeholder="Int" required="required">
+                      </div>
+
+
+                      <div class="mb-3">
+                        <label for="baseShippingPrice">baseShippingPrice</label>
+                        <input type="number" class="form-control" id="baseShippingPrice" name="baseShippingPrice" placeholder="Int" required="required">
+                      </div>
+
+
+                      <div class="mb-3">
+                        <label for="international">international</label>
+                        <select class="form-control" id="international" name="international" placeholder="international" required="required">
+                          <option value="" disabled selected>international</option>
+                          <option>Yes</option>
+                          <option>No</option>
+                        </select>
+                      </div>
+
+
+                      <div class="mb-3">
+                        <label for="expressShipment">expressShipment</label>
+                        <select class="form-control" id="expressShipment" name="expressShipment" placeholder="expressShipment" required="required">
+                          <option value="" disabled selected>expressShipment</option>
+                          <option>Yes</option>
+                          <option>No</option>
+                        </select>
+                      </div>
+
+
+
+                      <div class="mb-3">
+                        <label for="installationIncluded">installationIncluded</label>
+                        <select class="form-control" id="installationIncluded" name="installationIncluded" placeholder="installationIncluded" required="required">
+                          <option value="" disabled selected>installationIncluded</option>
+                          <option>Yes</option>
+                          <option>No</option>
+                        </select>
+                      </div>
+
+           
+
+
+                      <div class="mb-3">
+                        <label for="transport">transport</label>
+                        <select class="form-control" id="transport" name="transport" placeholder="transport" required="required">
+                          <option value="" disabled selected>transport</option>
+                          <option>Airways</option>
+                          <option>Roadways</option>
+                          <option>Waterways</option>
+                        </select>
+                      </div>
+
+
+
+                      <div class="mb-3">
+                        <label for="fragile">fragile</label>
+                        <select class="form-control" id="fragile" name="fragile" placeholder="fragile" required="required">
+                          <option value="" disabled selected>fragile</option>
+                          <option>Yes</option>
+                          <option>No</option>
+                        </select>
+                      </div>
+
+
+
+
+                      <div class="mb-3">
+                        <label for="customerInformation">customerInformation</label>
+                        <select class="form-control" id="customerInformation" name="customerInformation" placeholder="customerInformation" required="required">
+                          <option value="" disabled selected>customerInformation</option>
+                          <option>Wealthy</option>
+                          <option>Working Class</option>
+                        </select>
+                      </div>
+
+
+                      <div class="mb-3">
+                        <label for="remoteLocation">remoteLocation</label>
+                        <select class="form-control" id="remoteLocation" name="remoteLocation" placeholder="remoteLocation" required="required">
+                          <option value="" disabled selected>remoteLocation</option>
+                          <option>Yes</option>
+                          <option>No</option>
+                        </select>
+                      </div>
+
+
+
+                      
+                        <input class="btn btn-primary" type="submit" value="Predict" required />
+                    </div>
+        
+                </form>
+            </div>
+            <div class="text-center text-black">
+                <h2 class="display-4 fw-bolder">The shipment cost is  {{context}} </h2>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(".input").focus(function(){
+            $(this).parent().addClass("focus");
+        }).blur(function(){
+            if($(this).val() === ''){
+                $(this).parent().removeClass("focus");
+            }
+        })
+    </script>
+  </body>
+</html>
