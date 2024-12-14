@@ -11,9 +11,6 @@ from shipment.components.model_predictor import CostPredictor, shippingData
 from shipment.constant import APP_HOST, APP_PORT
 from shipment.pipeline.training_pipeline import TrainPipeline
 
-
-
-
 app = FastAPI()
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
