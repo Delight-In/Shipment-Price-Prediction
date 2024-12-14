@@ -1,11 +1,6 @@
-## Shipment Price Prediction
-
-<!-- ![Image](images.jpeg) -->
-<img src="images.jpeg" alt="Shipment" style="width: 600px; height: auto;" />
-
+# Shipment Price Prediction
 
 **Problem Statement**:
-
 
 The state of the art in shipment price prediction models has certainly evolved, but it is unlikely that it has fully "achieved" perfection or is the final model, as the field continues to develop and address emerging challenges. The effectiveness of a model depends on various factors, such as the specific context of the shipment (e.g., type of goods, geographical regions, demand patterns), and what data sources are available.
 
