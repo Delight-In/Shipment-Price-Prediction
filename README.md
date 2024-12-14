@@ -1,11 +1,11 @@
 # Shipment Price Prediction
-
+---
 **Problem Statement**:
-
+---
 The state of the art in shipment price prediction models has certainly evolved, but it is unlikely that it has fully "achieved" perfection or is the final model, as the field continues to develop and address emerging challenges. The effectiveness of a model depends on various factors, such as the specific context of the shipment (e.g., type of goods, geographical regions, demand patterns), and what data sources are available.
 
 ### 1. **Current Limitations of Shipment Price Prediction Models**
-
+---
 Many existing models used to predict shipment prices often face several challenges:
 
 #### a. **Complexity of Variables**  
@@ -28,7 +28,7 @@ Advanced machine learning models, especially those using deep learning or ensemb
 Some advanced models like deep neural networks or certain ensemble methods lack transparency, making it hard for practitioners to understand and trust the predictions. This is particularly problematic when businesses need to make important decisions based on the model's outputs.
 
 ### 2. **Best Models Used for Shipment Price Prediction**
-
+---
 Some of the most widely used models for shipment price prediction in practice include:
 
 #### a. **Time Series Models**  
@@ -53,7 +53,7 @@ Reinforcement Learning can be used to simulate decision-making processes and opt
 - **Weaknesses**: Complex to implement and may require substantial amounts of training data.
 
 ### 3. **Challenges Not Solved Yet**
-
+---
 While these models have brought significant improvements in price prediction, the following challenges are still largely unresolved:
 
 #### a. **Dynamic Price Adjustments**  
@@ -79,7 +79,7 @@ Big firms like Maersk, DHL, FedEx, and others are increasingly using a combinati
 These organizations also implement **dynamic pricing algorithms** and **real-time optimization models** that adjust based on operational data like inventory, demand fluctuations, and route congestion.
 
 ### Conclusion
-
+---
 The shipment price prediction field has made great strides but is far from perfect. The best models today tend to be **ensemble methods**, like **XGBoost**, or **deep learning** approaches like **LSTM**, but each has its own limitations, such as difficulty in handling real-time events, interpretability issues, or overfitting. The optimal model depends on the specific business context, available data, and the complexity of the shipping network.
 
 Future research will likely continue to improve model accuracy, incorporate real-time data more seamlessly, and provide better interpretability and transparency to practitioners.
