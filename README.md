@@ -19,13 +19,19 @@ The key factors that influence shipment prices:
 15. **Weight Distribution and Consolidation**
 
 
-Here’s a short list of popular machine learning models commonly used for prediction tasks:
+Lists of Popular machine learning models used for shipment price prediction
 
-1. **Linear Regression**
-2. **Decision Trees**
-3. **Random Forest**
-4. **Gradient Boosting Machines (GBM) / XGBoost**
-5. **Support Vector Machines (SVM)**
-6. **K-Nearest Neighbors (KNN)**
-7. **Neural Networks (Deep Learning)**
-8. **AdaBoost**
+### 1. **Linear Regression**
+### 2. **Random Forest**
+### 3. **Gradient Boosting Machines (GBM)**
+### 4. **XGBoost**
+### 5. **Support Vector Machines (SVM)**
+### 6. **Neural Networks (Deep Learning)**
+### 7. **K-Nearest Neighbors (KNN)**
+### 8. **Decision Trees**
+### 9. **Reinforcement Learning**
+### 10. **Time Series Forecasting Models (ARIMA, SARIMA)**
+### 11. **Bayesian Networks**
+### 12. **CatBoost**
+
+---
