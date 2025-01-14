@@ -11,8 +11,8 @@ SCHEMA_FILE_PATH = "config/schema.yaml"
 DB_URL = os.getenv("MONGO_DB_URL")
 
 TARGET_COLUMN = "Cost"
-DB_NAME = "ShipmentPriceData"
-COLLECTION_NAME = "Shipment"
+DB_NAME = "shipmentdata"
+COLLECTION_NAME = "ship"
 TEST_SIZE = 0.2
 ARTIFACTS_DIR = os.path.join(from_root(), "artifacts", TIMESTAMP)
 

@@ -35,3 +35,14 @@ Lists of Popular machine learning models used for shipment price prediction
 ### 12. **CatBoost**
 
 ---
+**Summary of Best R2 Scores:**
+
+	Model Name	                 r2_score
+5	CatBoosting Regressor	     0.971792
+4	XGBRegressor	             0.958326
+3	Random Forest Regressor	     0.956299
+7	SVR	                         0.913033
+2	Decision Tree	             0.899039
+6	AdaBoost Regressor	         0.859793
+1	K-Neighbors Regressor	     0.840555
+0	Linear Regression	         0.821829
