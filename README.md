@@ -19,22 +19,6 @@ The key factors that influence shipment prices:
 15. **Weight Distribution and Consolidation**
 
 
-Lists of models used for shipment price prediction
-
-### 1. **Linear Regression**
-### 2. **Random Forest**
-### 3. **Gradient Boosting Machines (GBM)**
-### 4. **XGBoost**
-### 5. **Support Vector Machines (SVM)**
-### 6. **Neural Networks (Deep Learning)**
-### 7. **K-Nearest Neighbors (KNN)**
-### 8. **Decision Trees**
-### 9. **Reinforcement Learning**
-### 10. **Time Series Forecasting Models (ARIMA, SARIMA)**
-### 11. **Bayesian Networks**
-### 12. **CatBoost**
-
----
 **Summary of Best R2 Scores:**
 
 ### 	Model Name	                 r2_score
