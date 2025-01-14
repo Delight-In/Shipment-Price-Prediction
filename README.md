@@ -19,7 +19,7 @@ The key factors that influence shipment prices:
 15. **Weight Distribution and Consolidation**
 
 
-Lists of Popular machine learning models used for shipment price prediction
+Lists of models used for shipment price prediction
 
 ### 1. **Linear Regression**
 ### 2. **Random Forest**
@@ -37,12 +37,13 @@ Lists of Popular machine learning models used for shipment price prediction
 ---
 **Summary of Best R2 Scores:**
 
-	Model Name	                 r2_score
-5	CatBoosting Regressor	     0.971792
-4	XGBRegressor	             0.958326
-3	Random Forest Regressor	     0.956299
-7	SVR	                         0.913033
-2	Decision Tree	             0.899039
-6	AdaBoost Regressor	         0.859793
-1	K-Neighbors Regressor	     0.840555
-0	Linear Regression	         0.821829
+### 	Model Name	                 r2_score
+
+*	CatBoosting Regressor	     0.971792
+*	XGBRegressor	             0.958326
+*	Random Forest Regressor	     0.956299
+*	SVR	                         0.913033
+*	Decision Tree	             0.899039
+*	AdaBoost Regressor	         0.859793
+*	K-Neighbors Regressor	     0.840555
+*	Linear Regression	         0.821829
